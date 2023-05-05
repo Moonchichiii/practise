@@ -61,6 +61,27 @@ article {
 display: flex;
 }
 
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--link-color);
+    
+}
+
+nav a:hover {
+    
+    transition: ease-in-out 2s;
+    text-decoration: underline;
+    color: var(--hlink-color);
+}
+
 /* Components */
 
 /* @ Media */
