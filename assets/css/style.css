@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+
+
+
+/* Global Styles*/
 :root {
     --headings-color:#8AA899;
     --text-color: #5C6E58;
     --link-color: #F2D349;
     --hlink-color: orangered;
 }
+
 
 * {
     box-sizing: border-box;
@@ -25,5 +31,37 @@ body {
 }
 
 
+/* Typograph*/
 
+p {
+    color:var(--text-color)
+}
+
+h1 h2 h3 {
+    color:var(--headings-color)
+}
+
+
+
+
+/* Main Layout and Navigation*/
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+section {
+display: flex;
+flex-direction: row;
+}
+
+article {
+display: flex;
+}
+
+/* Components */
+
+/* @ Media */
 
