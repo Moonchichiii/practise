@@ -2,7 +2,6 @@
 
 
 
-
 /* Global Styles*/
 :root {
     --headings-color:#8AA899;
@@ -32,6 +31,8 @@ body {
 }
 
 
+
+
 /* Typograph*/
 
 p {
@@ -45,12 +46,16 @@ h1 h2 h3 {
 
 
 
+
+
 /* Main Layout and Navigation*/
+
+
 header {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: auto; 
+    height: 5rem; 
     padding: 1rem 0; 
     background-color: rgba(255,255,255,0.5);
 }
@@ -61,15 +66,18 @@ main {
 }
 
 section {
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 article {
-display: flex;
+    display: flex;
 }
 
 
+
+
+/*  Navigation */
 
 nav {
     display: flex;
@@ -103,9 +111,9 @@ nav ul li {
    
 }
  
-nav a;:hover {
+nav a:hover {
     display: block;
-    transition: ease-in-out 9ms;
+    transition: ease-in-out 45ms;
     text-decoration: underline;
     color: var(--hlink-color);
 }  
