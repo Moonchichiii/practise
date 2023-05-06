@@ -78,48 +78,41 @@ article {
 
 
 /*  Navigation */
-
 nav {
     display: flex;
     align-items: center;
     text-align: center;
+    margin-right: 2rem;
 }
 
 nav ul li {
-    display: inline-block;    
-    margin-left: 1%;   
+    display: inline-block;
+    margin: 0 0.5rem;
 }
 
 nav li a {
-    display: inline-block;    
+    display: inline-block;
     list-style: none;
     text-decoration: none;
     font-size: 1rem;
     color: var(--link-color);
-    
 }
 
-nav {
-    display: flex;
-    margin-right: 2rem;
-    
-}
- 
-nav ul li {
-    display: inline-block;
-    margin: 0 0.5rem;
-   
-}
- 
 nav a:hover {
-    display: block;
-    transition: ease-in-out 45ms;
     text-decoration: underline;
     color: var(--hlink-color);
-}  
+    transition: ease-in-out 45ms;
+}
+
+nav a:active {
+    transform: scale(1.7);
+    transition: transform 200ms;
+}
 
 
 /* Components */
+
+  
 
 /* @ Media */
 
