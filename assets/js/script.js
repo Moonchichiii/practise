@@ -1,11 +1,13 @@
+/* hamburger menu drop down.  */
 function toggleDropdown() {
-    var dropdown = document.getElementById("dropdown-content");
-    if (dropdown.style.display === "block") {
-        dropdown.style.display = "none";
+    var dropdownContent = document.getElementById("dropdown-content");
+    if (dropdownContent.style.display === "none") {
+        dropdownContent.style.display = "block";
     } else {
-        dropdown.style.display = "block";
+        dropdownContent.style.display = "none";
     }
 }
+
 
 /* modal button at the bottom of the page!  */ 
 
